@@ -1,0 +1,29 @@
+* {
+  box-sizing: content-box;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20%;
+  line-height: 80%;
+}
+.heading {
+  color: #2d3a35;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.count {
+  color: #c20a72;
+}
+
+.button {
+  cursor: pointer;
+  outline: none;
+  padding: 10px;
+  border-radius: 10%;
+  background-color: #007bff;
+}
